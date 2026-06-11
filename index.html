@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">  
+        <div class="weather-info">
+            <h1 class="temp" id="temp">--</h1>
+            <h2 class="location" id="location">Search a City</h2>
+            <p class="date-time" id="date-time">--</p>
+            <div class="weather-icon-box">
+                <img id="weather-icon" src="" alt="" style="display:none; width: 64px; height: 64px;">
+                <p id="weather-desc" class="condition">--</p>
+            </div>
+        </div>
+        <div class="search-footer">
+            <div class="search-bar">
+                <button id="gps-btn" title="Use Current Location" class="icon-btn"></button>
+                <input type="text" id="search-input" placeholder="Search Location..." autocomplete="off">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
